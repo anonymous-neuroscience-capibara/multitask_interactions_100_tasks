@@ -1,0 +1,7 @@
+# Analysis notebooks are exploratory; don't gate commits on their style.
+extend-exclude = ["*.ipynb"]
+
+[lint]
+# Scripts in this repo bootstrap the repo root onto sys.path before importing
+# project packages, so module-level imports legitimately follow executable code.
+ignore = ["E402"]

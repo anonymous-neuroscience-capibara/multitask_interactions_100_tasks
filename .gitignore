@@ -1,0 +1,12 @@
+*.npz
+*.ipynb
+!**/notebooks/*.ipynb
+*.pyc
+hierachical_model_general/
+.python-version
+**/__pycache__/
+**/results/
+data/
+lucies/
+*/results
+foundation_model/sh files
